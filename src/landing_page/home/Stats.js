@@ -25,7 +25,7 @@ function Stats() {
           <h2 className="fs-4">Do better with money</h2>
           <p className="text-muted">
             With initiatives like Nudge and Kill Switch, we don't just
-            facilitate transactions, but actively help you do better with your
+            facilitate transactions,but actively help you do better with your
             money.
           </p>
         </div>
