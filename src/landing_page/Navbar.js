@@ -2,8 +2,8 @@ import React from "react";
 function Navbar() {
   return (
     <nav
-      class="navbar navbar-expand-lg border-bottom"
-      style={{ background: "#fff" }}
+      class="navbar navbar-expand-lg border-bottom sticky-top"
+      style={{ background: "#fff" ,  }}
     >
       <div class="container p-2">
         <a class="navbar-brand" href="#">

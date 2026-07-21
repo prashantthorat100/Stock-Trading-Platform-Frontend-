@@ -1,7 +1,7 @@
 import React from "react";
 function Footer() {
   return (
-    <footer>
+    <footer style={{ backgroundColor: "#f3f0f0" }}>
       <div style={{ maxWidth: "1500px" }} className="container  border-top">
         <div style={{ marginLeft: "12%" }} className="row mt-4 ">
           {/* <div className="col"></div> */}
