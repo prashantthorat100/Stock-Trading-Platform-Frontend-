@@ -52,7 +52,13 @@ function ProductPage() {
         blog.
       </h3>
 
-      <Universe />
+      <h3 className="text-center fs-5 text-muted">
+        Want to know more about our technology stack? Check out the Zerodha.tech
+        blog.
+      </h3>
+
+      <Universe
+      />
     </>
   );
 }
