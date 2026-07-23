@@ -47,6 +47,10 @@ function ProductPage() {
         googlePlay=""
         appStore=""
       />
+      <h3 className="text-center fs-5 text-muted">
+        Want to know more about our technology stack? Check out the Zerodha.tech
+        blog.
+      </h3>
 
       <h3 className="text-center fs-5 text-muted">
         Want to know more about our technology stack? Check out the Zerodha.tech
