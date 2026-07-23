@@ -1,8 +1,46 @@
-import React from 'react'
+import React from "react";
 function Brokerage() {
-    return ( 
-        <h1>Brokerage</h1>
-     );
+  return (
+    <div className="container border-bottom mb-5 ">
+      <div className="row p-5 border-top ">
+        <div className="col-8  text-center">
+          <a style={{ textDecoration: "none" }} href="">
+            {" "}
+            <h3 className="fs-5">Brokerage Calculator</h3>
+          </a>
+          <ul className="text-start lh-lg text-muted ">
+            <li>
+              Call & Trade and RMS auto-squareoff: Additional charges of ₹50 +
+              GST per order.
+            </li>
+            <li> A Digital contract notes will be sent via e-mail.</li>
+            <li>
+              Physical copies of contract notes, if required, shall be charged
+              220 per contract note. Courier charges apply.
+            </li>
+            <li>
+              For NRI account (non-PIS), 0.5% or ₹100 per executed order for
+              equity (whichever is lower).
+            </li>
+            <li>
+              For NRI account (PIS), 0.5% or ₹200 per executed order for equity
+              (whichever is lower).
+            </li>
+            <li>
+              If the account is in debit balance, any order placed will be
+              charged 240 per executed order instead of 220 per executed order
+            </li>
+          </ul>
+        </div>
+        <div className="col-4  text-center">
+          <a style={{ textDecoration: "none" }} href="">
+            {" "}
+            <h3 className="fs-5">List of charges</h3>
+          </a>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default Brokerage;
