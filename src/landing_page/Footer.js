@@ -7,7 +7,7 @@ function Footer() {
           {/* <div className="col"></div> */}
           <div className="col-md-3">
             <img
-              style={{ width: "150px" }}
+              style={{ width: "150px", margin: "20px auto 20px auto" }}
               alt="logo"
               src="media/images/logo.svg"
             />
@@ -15,6 +15,50 @@ function Footer() {
               © 2010 - 2026, Zerodha Broking Ltd.
               <br /> All rights reserved.
             </p>
+            <div className="socials fs-5 ">
+              <div className="mb-3">
+                <a style={{ color: "GrayText", marginRight: "10px" }} href="">
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a style={{ color: "GrayText", marginRight: "10px" }} href="">
+                  <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                <a style={{ color: "GrayText", marginRight: "10px" }} href="">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a style={{ color: "GrayText", marginRight: "10px" }} href="">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </div>
+              <div className="mt-3 border-top">
+                <div className="mt-3">
+                  <a style={{ color: "GrayText", marginRight: "10px" }} href="">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                  <a style={{ color: "GrayText", marginRight: "10px" }} href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                  </a>
+                  <a style={{ color: "GrayText", marginRight: "10px" }} href="">
+                    <i class="fa-brands fa-telegram"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div style={{ marginRight: "10px" }} className="mt-4">
+                <a>
+                  <img
+                    style={{ width: "120px", marginRight: "10px" }}
+                    src="media\images\google-play-badge-light.svg"
+                  ></img>
+                </a>
+                <a>
+                  <img
+                    style={{ width: "110px" }}
+                    src="media\images\appstore-badge-light.svg"
+                  ></img>
+                </a>
+              </div>
+            </div>
           </div>
           <div className="col-md-2 anchor">
             <p className="head">Account</p>
